@@ -5,8 +5,8 @@ import { Brand, GeneralHeader, List } from "./HeaderStyled";
 const Header = () => {
   return (
     <GeneralHeader>
-      <Brand>
-        <Link to="/"> Color react-app</Link>
+      <Brand to="/" as={Link}>
+        Color react-app
       </Brand>
       <nav>
         <List>

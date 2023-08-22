@@ -79,7 +79,7 @@ const SettingPage = () => {
             placeholder="Color code"
           />
        
-        <Button>Add color</Button>
+        <Button disabled={color.colorName===""||color.colorCode===""}>Add color</Button>
         </FormGroup>
        <FormGroup>
        <ColorBoxes>
